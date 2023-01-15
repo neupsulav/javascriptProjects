@@ -1,51 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    border-radius: 5px;
+    padding: 30px;
+    border: 1px solid white;
+    width: fit-content;
+    background-color: white;
+    text-align: center;
+    height: 200px;
+    box-shadow: 5px 5px rgb(165, 162, 162);
 }
 
 body {
+    background-color: burlywood;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: grey;
 }
 
-.container {
-    text-align: center;
-    padding: 20px;
-    border: 2px solid white;
-    width: 50vw;
-    border-radius: 10px;
-    background-color: white;
-}
-
-form {
+#formId {
+    margin: 10px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+}
+
+#formId .formButton {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    padding: 5px;
+    background-color: darkorange;
+    border: 0;
+    color: black;
+    border-radius: 5px;
+    color: white;
+}
+
+#formId .formButton:hover {
+    transition: 0.8s;
+    scale: 1.1;
+    box-shadow: 2px 2px grey;
 }
 
 .alert {
-    display: none;
-    color: red;
-}
-
-form {
     margin: 10px;
-}
-
-h6,
-h4,
-h5 {
-    margin: 5px;
-}
-
-.formButton {
-    margin-top: 5px;
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(250, 136, 136);
     padding: 3px;
-    background-color: yellow;
-    color: black;
-    border-color: yellow;
-    border-radius: 5px;
+    visibility: hidden;
+}
+
+.lastMsg {
+    margin-top: 20px;
 }
