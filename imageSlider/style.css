@@ -38,8 +38,8 @@ body {
 .btn-left:hover {
     color: darkorange;
     background-color: black;
-    left: -30px;
-    transition: 1s;
+    left: -25px;
+    transition: 0.5s;
 }
 
 .btn-right {
@@ -57,6 +57,6 @@ body {
 .btn-right:hover {
     color: darkorange;
     background-color: black;
-    right: -30px;
-    transition: 1s;
+    right: -25px;
+    transition: 0.5s;
 }
