@@ -33,6 +33,7 @@ body {
     position: absolute;
     top: 45%;
     left: -20px;
+    transition: ease;
 }
 
 .btn-left:hover {
