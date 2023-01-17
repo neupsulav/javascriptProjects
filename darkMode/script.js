@@ -53,3 +53,15 @@ rightBtn.addEventListener('click', () => {
     customerTestimonial.innerText = `${data[count].testimonial}`
 
 })
+
+// for dark mode 
+let darkModeBtn = document.getElementById('dark')
+darkModeBtn.addEventListener('click', () => {
+    document.body.classList.toggle('darkMode')
+    document.body.style.transition = '1s'
+    if (darkModeBtn.innerText == 'Dark Mode') {
+        darkModeBtn.innerText = 'Light Mode'
+    } else {
+        darkModeBtn.innerText = 'Dark Mode'
+    }
+})
