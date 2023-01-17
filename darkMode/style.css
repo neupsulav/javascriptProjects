@@ -15,6 +15,32 @@ body {
     position: relative;
 }
 
+.darkMode {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    /* width: 70px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 15px; */
+}
+
+.dark {
+    padding: 8px;
+    background-color: rgb(180, 180, 151);
+    border: 1px solid rgb(200, 200, 200);
+    color: black;
+    border-radius: 6px;
+}
+
+.dark:hover {
+    background-color: black;
+    color: beige;
+    scale: 1.1;
+    box-shadow: 3px 3px 15px rgb(162, 162, 162);
+    transition: 0.4s;
+}
+
 .container {
     display: flex;
     flex-direction: column;
