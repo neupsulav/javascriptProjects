@@ -31,10 +31,6 @@ body {
     position: absolute;
     top: 20px;
     right: 20px;
-    /* width: 70px;
-    height: 30px;
-    border: 1px solid black;
-    border-radius: 15px; */
 }
 
 .dark {
@@ -43,6 +39,7 @@ body {
     border: 1px solid rgb(200, 200, 200);
     color: black;
     border-radius: 6px;
+    transition: 0.4s;
 }
 
 .dark:hover {
@@ -50,7 +47,7 @@ body {
     color: beige;
     scale: 1.1;
     box-shadow: 3px 3px 15px rgb(162, 162, 162);
-    transition: 0.4s;
+    cursor: pointer;
 }
 
 .container {
@@ -115,12 +112,12 @@ img {
     margin-right: 10px;
     background-color: var(--secondary-color);
     font-size: large;
-
+    transition: 0.5s ease-in-out;
 }
 
 .btn:hover {
     background-color: var(--primary-color);
-    transition: 0.5s ease-in-out;
+    cursor: pointer;
     cursor: pointer;
 }
 

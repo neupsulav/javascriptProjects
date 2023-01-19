@@ -34,13 +34,14 @@ body {
     top: 45%;
     left: -20px;
     transition: ease;
+    transition: 0.5s;
 }
 
 .btn-left:hover {
     color: darkorange;
     background-color: black;
     left: -25px;
-    transition: 0.5s;
+
 }
 
 .btn-right {
@@ -53,11 +54,12 @@ body {
     position: absolute;
     top: 45%;
     right: -20px;
+    transition: 0.5s;
 }
 
 .btn-right:hover {
     color: darkorange;
     background-color: black;
     right: -25px;
-    transition: 0.5s;
+
 }

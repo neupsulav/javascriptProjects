@@ -43,6 +43,7 @@ input {
     font-weight: bold;
     border-radius: 5px;
     border: none;
+    cursor: pointer;
 }
 
 .btn-equal {
@@ -52,6 +53,7 @@ input {
     font-weight: bold;
     border-radius: 5px;
     border: none;
+    cursor: pointer;
 }
 
 .btn-clear {
@@ -61,6 +63,7 @@ input {
     font-weight: bold;
     border-radius: 5px;
     border: none;
+    cursor: pointer;
 }
 
 .btn-yellow {

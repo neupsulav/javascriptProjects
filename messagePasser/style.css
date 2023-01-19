@@ -42,10 +42,10 @@ body {
     color: black;
     border-radius: 5px;
     color: white;
+    transition: 0.8s;
 }
 
 #formId .formButton:hover {
-    transition: 0.8s;
     scale: 1.1;
     box-shadow: 2px 2px grey;
 }

@@ -71,12 +71,12 @@ img {
     margin-right: 10px;
     background-color: white;
     font-size: large;
+    transition: 0.5s ease-in-out;
 
 }
 
 .btn:hover {
     background-color: beige;
-    transition: 0.5s ease-in-out;
     cursor: pointer;
 }
 
